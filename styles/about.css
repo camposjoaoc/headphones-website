@@ -1,7 +1,6 @@
 .container-about-us {
     background-image: url(../images/about_us_img_headphone.png);
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     min-height: 80vh;
     width: 100%;
@@ -9,15 +8,16 @@
     position: relative;
     margin-top: 2%;
     background-color: #000000;
+    padding-bottom: 20px;
     /* Fallback for when the image fails to load */
 }
 
 .container-inside {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 40%;
     min-height: 100%;
-    margin: 0 2rem;
+    margin: 0 2rem 0 5rem;
 }
 
 .about-main-title {
