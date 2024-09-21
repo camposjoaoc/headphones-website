@@ -1,16 +1,16 @@
+/* Page created by Mahmoud AlZayed */
+
 *{
     box-sizing: border-box;
     margin:0;
     padding:0;
+
 }
 .background{
     background-color: #BD7482;
-    /* background-repeat:no-repeat;
-    background-size: cover; */
-    /* background-position: 0 20px;; */
-    /* background-attachment: fixed;  */
     width:100vw;
-    height: 90vh;
+    height: 100vh;
+
 }
 .main-content{
     display: flex;
@@ -28,16 +28,13 @@ h1{
     width: 300px;
     max-width: 100%;
     height: 50px;
-    /* border: 2px solid; */
     margin-top: 10px;
-
-    
-
 
 }
 .customer-support-heading{
-    margin-top: -10px;
-
+     width: 274px;
+     max-width: 100%;
+     height:71px
 
 }
 h2{
@@ -49,29 +46,27 @@ h2{
     width: 300px;
     max-width: 100%;
     height: 50px;
-    /* border: 2px solid; */
-
-
+    
 }
-p{
+.all-paragraphs{
     color: #070202;
     font-size: 20px;
     font-family: Roboto,sans-serif ;
     line-height: 32px;
     letter-spacing: 2%;
-    /* border: 2px solid; */
-   
+
 }
 .customer-support{
     width: 400px;
     max-width: 100%;
     height: 105px;
-    /* border: 2px solid; */
+
 }
 .business-inquirie{
     width: 300px;
     max-width: 100%;
     height: 120px;
+    
 }
 .jamz-inc{
     width: 400px;
@@ -96,8 +91,6 @@ p{
     font-family: Ramaraja;
     font-size: 20px;
 
-  
-   
 }
 input{
     display: block;
@@ -109,7 +102,6 @@ input{
     border: none;
     margin-bottom: 10px;
 
-
 }
 textarea{
     display: block;
@@ -119,10 +111,6 @@ textarea{
     background: rgb(210, 137, 151);
     border: none;
     margin-bottom: 10px;
-
-
-    
-
 
 }
 button{
@@ -135,8 +123,6 @@ button{
     border: none;
     cursor: pointer;
     font-size: 20px;
-
-
     
 }
 button:hover{
