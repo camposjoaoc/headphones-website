@@ -1,131 +1,142 @@
-/* Page created by Mahmoud AlZayed */
-
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-
+/*Page created by Mahmoud AlZayed*/
+/*****Page refactored by João Campos*/
+.contact-page {
+    font-family: "Ramaraja", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.55rem;
+    line-height: 1.6;
+    padding: 40px;
+    background-color: #f9f9f9;
+    color: #333;
 }
-.background{
-    background-color: #BD7482;
-    width:100vw;
-    height: 100vh;
 
+.contact-page h1 {
+    color: #BD7482;
+    text-align: center;
+    margin-bottom: 40px;
 }
-.main-content{
+
+.contact-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
 }
-.contact-info{
-    padding: 2px;
-}
-h1{
-    color: #FFFFFF;
-    font-size: 50px;
-    font-family: Ramaraja,sans-serif ;
-    line-height: 76px;
-    letter-spacing: 2%;
-    width: 300px;
-    max-width: 100%;
-    height: 50px;
-    margin-top: 10px;
 
+.contact-info {
+    flex: 1;
+    max-width: 45%;
 }
-.customer-support-heading{
-     width: 274px;
-     max-width: 100%;
-     height:71px
 
+.contact-info h2 {
+    color: #BD7482;
+    margin-bottom: 15px;
 }
-h2{
-    color: #FFFFFF;
-    font-family: Ramaraja,sans-serif ;
-    font-size: 35px;
-    line-height: 76px;
-    letter-spacing: 2%;
-    width: 300px;
-    max-width: 100%;
-    height: 50px;
-    
-}
-.all-paragraphs{
-    color: #070202;
-    font-size: 20px;
-    font-family: Roboto,sans-serif ;
-    line-height: 32px;
-    letter-spacing: 2%;
 
+.contact-info p {
+    margin: 10px 0;
 }
-.customer-support{
-    width: 400px;
-    max-width: 100%;
-    height: 105px;
 
+.contact-info a {
+    color: #BD7482;
+    text-decoration: none;
 }
-.business-inquirie{
-    width: 300px;
-    max-width: 100%;
-    height: 120px;
-    
-}
-.jamz-inc{
-    width: 400px;
-    max-width: 100%;
-    height: 105px;
 
+.contact-info a:hover {
+    text-decoration: underline;
 }
-.socila-media{
-    width: 400px;
-    max-width: 100%;
-    height: 127px;
 
+.contact-form {
+    flex: 1;
+    max-width: 45%;
 }
-.form{
-    align-self: center;
-    margin: 50px;
-    
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
 }
-.label{
-    display: block;
+
+.contact-form label {
+    margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #BD7482;
     color: white;
-    font-family: Ramaraja;
-    font-size: 20px;
-
-}
-input{
-    display: block;
-    color: #FFFFFF;
-    width: 400px;
-    max-width: 100%;
-    height: 50px;
-    background: rgb(210, 137, 151);
+    padding: 10px 15px;
     border: none;
-    margin-bottom: 10px;
-
-}
-textarea{
-    display: block;
-    width: 400px;
-    max-width: 100%;
-    height: 50px;
-    background: rgb(210, 137, 151);
-    border: none;
-    margin-bottom: 10px;
-
-}
-button{
-    width: 130px;
-    max-width: 100%;
-    height: 50px;
-    border-radius: 60px;
-    color: #FFFFFF;
-    background: rgb(210, 137, 151);
-    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 20px;
-    
+    font-size: 1.2rem;
+    width: 20%;
+    align-self: center;
+    font-size: 1.55rem;
 }
-button:hover{
-    color: lightblue;
 
+.contact-form button:hover {
+    background-color: #a35765;
 }
+
+.animation {
+    transition: transform 0.4s ease;
+}
+
+.animation:hover {
+    transform: scale(1.1);
+}
+
+/*FOOTER by João*/
+.footer {
+    background-color: #BD7482;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #333;
+}
+
+/*END FOOTER by João*/
