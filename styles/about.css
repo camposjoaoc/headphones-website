@@ -6,7 +6,7 @@
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-top: 2%;
+    margin-top: 0;
     background-color: #000000;
     padding-bottom: 20px;
     /* Fallback for when the image fails to load */
