@@ -7,7 +7,7 @@
     overflow: hidden;
     position: relative;
     margin-top: 0;
-    background-color: #000000;
+    background-color: rgb(207, 178, 218);
     padding-bottom: 20px;
     /* Fallback for when the image fails to load */
 }
@@ -15,7 +15,7 @@
 .container-inside {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 45%;
     min-height: 100%;
     margin: 0 2rem 0 5rem;
 }
